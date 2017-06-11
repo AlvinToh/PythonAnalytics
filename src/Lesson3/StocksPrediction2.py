@@ -43,6 +43,7 @@ import matplotlib as mpl
 
 # Stocks mean and Risk Calculation
 plt.scatter(retscomp.mean(), retscomp.std())
+plt.colorbar();
 plt.xlabel('Expected returns')
 plt.ylabel('Risk')
 
